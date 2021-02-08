@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  margin-left: 1.5rem;
+  margin-bottom: 4rem;
+  letter-spacing: -2px;
+}
+
+#scarecrow {
+  display: flex;
+  width: 17.92rem;
+  height: 14.875rem;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#message {
+  width: 100%;
+  font-family: "Space Mono", monospace;
+  padding-left: 24px;
+}
+
+#message h2 {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  color: #333333, 100%;
+  /* margin-top: 60px; */
+}
+
+#message p {
+  margin: 1.875rem 1.5px 4.125rem 1.4375px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  height: 81px;
+}
+
+#button {
+  display: inline-block;
+  text-decoration: none;
+  background: #333333;
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  padding: 24px 43px 23px;
+  font-size: 0.875rem;
+}
+
+footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 6rem;
+  padding: 0 4.625rem 2.625rem 4.685rem;
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+  #message {
+    margin-right: 119px;
+  }
+
+  #scarecrow {
+    height: 447.42px;
+    width: 539px;
+    border-radius: 0px;
+    margin-left: 77px;
+  }
+  #message h2 {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+  }
+
+  #message p {
+    width: 381px;
+    height: 108px;
+    font-size: 1.5rem;
+    color: #4f4f4f;
+    font-weight: 400;
+  }
+
+  footer {
+    margin-top: 18.3125rem;
+  }
+}
